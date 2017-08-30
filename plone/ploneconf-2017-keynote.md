@@ -207,13 +207,15 @@ yes, but how?
 
 --------------------------------------------------------------------------------
 
-# Offering a full REST API approach
+# Headless CMS
 
 .fx: titleslide
 
 # Presenter Notes
 
-and what about a GraphQL implementation?
+Offering a full REST API approach.
+
+And what about a GraphQL implementation?
 
 --------------------------------------------------------------------------------
 
@@ -249,13 +251,83 @@ You would think it is very bad, and the team would probably be not highly motiva
 
 # Presenter Notes
 
+Ok we all know that, right?
+
+Business wants to make money, OS doesn't really care about it.
+
+Business wants to go fast, and OS doesn't either really care about it.
+
+--------------------------------------------------------------------------------
+
+# Ok, but is that it?
+
+.fx: titleslide
+
+# Presenter Notes
+
+Are those differences the only reason we, Plone community, can handle this huge project, but a business project could not?
+
+I think it comes from something deeper.
+
+I would like to analyse 2 possible reasons I can see here: emotion and culture.
+
+--------------------------------------------------------------------------------
+
+# Emotions
+
+.fx: titleslide
+
+# Presenter Notes
+
 The business world is violent, fast and disruptive, it hurts.
 
-Opensource takes time, it takes to know people, to care about people, to collaborate over time, it heales.
+Opensource takes time, it takes to know people, to collaborate over time, it heales.
+
+Business values 10x developers, super-men.
+
+OS values collective.
+
+Collective means the only way to be a 10x dev is to teach 10 developers how to be 2x better.
+
+cura, care vs incuria, free time vs business
+
+Some of you are not in the Plone community, so you might not know what is a real community.
+
+Not just sharing code, we are sharing emotion. Emotions are mental and physiologic, they are what make our mind and our body a single thing, and what make us able to share with others (empathy=ability to feel what someone else feel, it is not a rational decision, it is also physiologic, it also works with animals).
+Being part of something, just like fan groups, or cosplay people: they spend a lot of time, is it useful? they don't care, they just want to be part of something, because it improves ourselves and makes us feel good.
+Human want to share, want to help (le don de sang payant par exemple, pendant la préhistoire, on prenait soin des handicapés, etc.), the myth of rational egoistic individual is a hoax. and if you ask those who beleive in it, they say "That's human nature", but ask them if they are also egoistic regarding the family, they say "no, of course", but what is the perimeter of your family? what if it is actually larger than you think? this fraternity, that's human nature.
+
+--------------------------------------------------------------------------------
+
+# Culture
+
+.fx: titleslide
+
+# Presenter Notes
+
+How Plone survived? Our complex tools and concepts are pharmakas, memory of the past, they are barriers but also helpful to solve today's issues. 
+
+Disrupting the disruption
+
+reprendre À quel prix devient-on vraiment pluggable ?
+
+--------------------------------------------------------------------------------
+
+# Building a cathedral
+
+.fx: titleslide
+
+# Presenter Notes
+
+Building a cathedral: like la Sagrada Familia: conceived by someone who left, but still under construction, and every part makes sense.
+
+Une communauté est un organisme autonome, qui exerce sa volonté de puissance (au sens de Nietzche, will to power), quand elle rencontre ses limites, elle les repousse
 
 --------------------------------------------------------------------------------
 
 # Thank you
+
+.fx: titleslide
 
 # Presenter Notes
 
@@ -268,9 +340,35 @@ opensource takes time, it takes to know people, to collaborate over time, it hea
 cura, care vs incuria, free time vs business
 startups value 10x developers, super-men. OS value collective. Only way to be a 10x dev is to teach 10 dev how to be 2x better.
 Some of you are not in the Plone community, so you might not know what is a real community.
+
 Not just sharing code, we are sharing emotion. Emotions are mental and physiologic, they are what make our mind and our body a single thing, and what make us able to share with others (empathy=ability to feel what someone else feel, it is not a rational decision, it is also physiologic, it also works with animals).
 Being part of something, just like fan groups, or cosplay people: they spend a lot of time, is it useful? they don't care, they just want to be part of something, because it improves ourselves and makes us feel good.
 Human want to share, want to help (le don de sang payant par exemple, pendant la préhistoire, on prenait soin des handicapés, etc.), the myth of rational egoistic individual is a hoax. and if you ask those who beleive in it, they say "That's human nature", but ask them if they are also egoistic regarding the family, they say "no, of course", but what is the perimeter of your family? what if it is actually larger than you think? this fraternity, that's human nature.
+
 How Plone survived? Our complex tools and concepts are pharmakas, memory of the past, they are barriers but also helpful to solve today's issues. 
-Utilser http://makina-corpus.com/blog/metier/archives/quel-prix-devient-vraiment-pluggable
 Une communauté est un organisme autonome, qui exerce sa volonté de puissance (au sens de Nietzche, will to power), quand elle rencontre ses limites, elle les repousse
+
+Utilser http://makina-corpus.com/blog/metier/archives/quel-prix-devient-vraiment-pluggable
+À quel prix devient-on vraiment pluggable ?
+Par Eric Brehault — publié 16/03/2012
+Cet article fait suite au mail de Chris McDonough http://groups.google.com/group/pylons-discuss/msg/b19df600ddb8be3f et à l'analyse qu'en fait Paul Everitt http://pauleveritt.wordpress.com/2011/01/14/chris-mcdonough-on-pluggable-apps/
+
+McDonough explique très bien la distinction entre extensibilité et pluggabilité, et il est tout à fait clairvoyant sur le fait que Pyramid n'offre pas automatiquement la pluggabilité.
+
+Dans Zope/Plone, on l'a.
+Ce qui est intéressant, c'est qu'au départ, on ne l'avait pas : Zope au départ c'est un système avec beaucoup de 'rails' (comme il dit), un peu comme Django aujourd'hui, c'est-à-dire avec un outillage fixe donné, mais par contre basé sur des concepts plutôt du genre de Pyramid.
+
+Aujourd'hui, on en est au point où un type de contenu développé en Dexterity peut être ajouté dans un autre développé en Archetypes, répondre à un évènement envoyé par un composant grok, et être modifié dans une browser view z3c.form, et tout cela par la simple grâce d'avoir installé les eggs correspondants (autrement dit d'en énumérer les noms dans le buildout.cfg, et sans aucune ligne de code).
+Parmi les technos listées ici, certaines ont 10 ans d'écart.
+Pour en arriver là, cela n'a pas été gratuit. Cela s'appuie sur des outils anciens qui ont été maintenus jusqu'à aujourd'hui (la ZODB, les CMF, à titre d'exemple une solution moderne comme Dexterity s'appuie sur les CMF), et sur des outils plus récents très pointus (la ZCA, GenericSetup, buildout).
+
+Accessoirement, cela a pris 15 ans.
+
+Au cours de ces 15 années, on a construit deux choses précieuses :
+
+les outils et les frameworks eux-mêmes,
+la culture qui va avec.
+C'est parce que cette culture est très forte que l'écosystème Plone fonctionne si bien. Par exemple, le respect systématique par n'importe quel composant communautaire de la structure CSS générale de Plone ou de son ergonomie ne vient pas à proprement parler de contraintes techniques, il relève de la culture globale de la communauté Plone et du soin que prend cette communauté de son outil.
+Et c'est cette volonté de soin couplée à la volonté de s'inscrire dans cette culture qui est le fondement de la pluggabilité réelle qu'on peut observer dans Plone.
+
+Au fond la technique n'est pas tellement importante, rien n'empêche de faire avec Django ou Pyramid la même chose qu'avec Zope/Plone (d'ailleurs, on trouve tout ce qu'il faut dans Pyramid pour suivre la même voie que Zope si on le souhaitait). Ce n'est pas la question. Ce n'est pas que ce soit possible de le faire qui compte, ce qui compte c'est que toute une communauté le fasse.

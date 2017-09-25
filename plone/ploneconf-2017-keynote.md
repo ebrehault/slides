@@ -6,9 +6,9 @@
 
 # Presenter Notes
 
-Hola a tots. I would love to do my talk in catalan, but my catalan is very bad, I will continue in english.
+Hola a tots. I would love to do my talk in catalan, but my catalan is very bad, I will continue in english because my english is much better.
 
-My english is pretty bad too, but speaking bad english is a french tradition I respect a lot.
+Nevertheless, I will do my best to make my english as bad as possible, because but speaking bad english is a french tradition we need to preserve (even our new president tries to speak a correct english, and I think that's a shame).
 
 --------------------------------------------------------------------------------
 
@@ -245,57 +245,223 @@ You would think it is very bad, and the team would probably be not highly motiva
 
 --------------------------------------------------------------------------------
 
+# So why is Plone alive?
+
+.fx: titleslide
+
+# Presenter Notes
+
+So why we, Plone community, can handle this huge project, but a business project could not?
+
+I would like to run our analysis over two axis: emotion and culture.
+
+--------------------------------------------------------------------------------
+
+# Emotion
+
+.fx: titleslide
+
+# Presenter Notes
+
+Let's start with emotion.
+
+--------------------------------------------------------------------------------
+
+# Love
+
+.fx: titleslide
+
+# Presenter Notes
+
+Last year at the Boston PloneConf, I have developped the idea that someone who writes code feels like a parent (I won't go into detail today)
+
+And an OS community is like a shared parenthood, so we consider ourselves as family.
+
+My talk ended with one word: "Love" as the explanation for the entire OS thing.
+
+Let's dig a little bit from here.
+
+--------------------------------------------------------------------------------
+
 # Opensource is not business
 
 .fx: titleslide
 
 # Presenter Notes
 
-Ok we all know that, right?
+And I prove it:
 
-Business wants to make money, OS doesn't really care about it.
+Business means you're busy.
 
-Business wants to go fast, and OS doesn't either really care about it.
+If you're busy, you're not free.
+
+And not free is not opensource.
+
+Ok, maybe I am playing with words here. But words matter.
+
+Think about the words we use in business...
 
 --------------------------------------------------------------------------------
 
-# Ok, but is that it?
+# Disruption
 
 .fx: titleslide
 
 # Presenter Notes
 
-Are those differences the only reason we, Plone community, can handle this huge project, but a business project could not?
+Why do we use "disruption" instead of "revolution" or even "evolution"?
 
-I think it comes from something deeper.
+Probably because the business world is meant to be violent and fast.
 
-I would like to analyse 2 possible reasons I can see here: emotion and culture.
+People accept that. Business is violent, and it hurts, and that's ok.
+
+Opensource is different, it takes time, it takes to know people, to collaborate over time.
+
+So at the contrary, it heales.
 
 --------------------------------------------------------------------------------
 
-# Emotions
+# 10x developer
 
 .fx: titleslide
 
 # Presenter Notes
 
-The business world is violent, fast and disruptive, it hurts.
-
-Opensource takes time, it takes to know people, to collaborate over time, it heales.
-
-Business values 10x developers, super-men.
+Start-ups value 10x developers, super-men.
 
 OS values collective.
 
 Collective means the only way to be a 10x dev is to teach 10 developers how to be 2x better.
 
-cura, care vs incuria, free time vs business
+In business, we usally do not "care" about human resources or human processes, we "manage" them.
+
+It leads to crazy things like: "According this spreadsheet, it seems with 9 couples, we can make one baby in one month"
+
+In OS we are more on the line: "It takes a couple to make a baby, and then it takes a village to raise it"
+
+or "It is easy to make a baby, it is more difficult to make an adult"
+
+--------------------------------------------------------------------------------
+
+# Result vs process
+
+.fx: titleslide
+
+# Presenter Notes
+
+What I want to highlight here is the corporate world focuses on the result, and we focus on the process.
+
+Why is that?
+
+Because the process provides emotions, the result (the product) does not (it just makes money).
+
+Opensource does not care about money, so it lets us free to focus on what matters, and what matters the most is emotion.
+
+--------------------------------------------------------------------------------
+
+# Sharing emotion
+
+.fx: titleslide
+
+# Presenter Notes
+
+Let's analyse the OS process
+
+There is a development process of course, which we enjoy, but we could enjoy it in a business context too.
+
+But also a sharing process.
 
 Some of you are not in the Plone community, so you might not know what is a real community.
 
-Not just sharing code, we are sharing emotion. Emotions are mental and physiologic, they are what make our mind and our body a single thing, and what make us able to share with others (empathy=ability to feel what someone else feel, it is not a rational decision, it is also physiologic, it also works with animals).
-Being part of something, just like fan groups, or cosplay people: they spend a lot of time, is it useful? they don't care, they just want to be part of something, because it improves ourselves and makes us feel good.
-Human want to share, want to help (le don de sang payant par exemple, pendant la préhistoire, on prenait soin des handicapés, etc.), the myth of rational egoistic individual is a hoax. and if you ask those who beleive in it, they say "That's human nature", but ask them if they are also egoistic regarding the family, they say "no, of course", but what is the perimeter of your family? what if it is actually larger than you think? this fraternity, that's human nature.
+We are not just sharing code, we are sharing emotion.
+
+That's why contributing feels good. Someone somewhere will appreciate what you gave him.
+
+--------------------------------------------------------------------------------
+
+# Emotions are strong
+
+.fx: titleslide
+
+# Presenter Notes
+
+Emotions are not just mental, they are mental and physiologic.
+
+They are what make our mind and our body a single thing, it is the foundation of our unity.
+
+--------------------------------------------------------------------------------
+
+# Empathy
+
+.fx: titleslide
+
+# Presenter Notes
+
+And emotions can be communicated. Love. Hate. Fear. Happiness.
+
+That's what we name empathy, the ability to feel what someone else feel.
+
+Empathy is not something you decide, it is natural, and some studies show it has an important physiologic aspect.
+
+Animals feel empathy.
+
+Because of empathy, emotions are the very first things living beings have been able to share.
+
+--------------------------------------------------------------------------------
+
+# Emotion addicts
+
+.fx: titleslide
+
+# Presenter Notes
+
+I think we are emotion addicts since we are born.
+
+And that's why human want to share, want to help each others.
+
+Doing OS, we want to be part of something. Like any given group of fan.
+
+Any fan invest time and/or money. For something not useful, not productive.
+
+Just to be part of something. Why? because we don't want to be alone? Not exactly.
+
+Because we need emotions. More emotions. They make us feel better, they make us better persons.
+
+--------------------------------------------------------------------------------
+
+# Altruist vs egoist
+
+.fx: titleslide
+
+# Presenter Notes
+
+As you know, "we are spirits in a material world" (remember the Police song?).
+
+Our world is ruled by economics principles.
+
+Like the myth of the rational egoistic individual pursuing his own interest and it benefits to the entire society.
+
+A lot of people think that. I think it is the biggest hoax ever.
+
+And those people usally say: "Hey, you know, that's just human nature".
+
+But if you ask them if they are also egoistic regarding the family, they say "no, of course"
+
+But what is the perimeter of your family?
+
+What if it is actually larger than you think?
+
+Consider this:
+
+- we have proof prehistoric people took care of crippled persons
+
+- in countries where you are not paid when you give your blood, we collect more blood
+
+This fraternity, that's human nature.
+
+People are altruists by nature. And probably because of emotions.
+
+That's something our modern world burried very deeply, and opensource makes it resurface.
 
 --------------------------------------------------------------------------------
 
@@ -305,11 +471,21 @@ Human want to share, want to help (le don de sang payant par exemple, pendant la
 
 # Presenter Notes
 
+So that's **why** the Plone community is a thing, that's **why** Plone survived all along its long life.
+
+But it does not explain **how**.
+
 How Plone survived? Our complex tools and concepts are pharmakas, memory of the past, they are barriers but also helpful to solve today's issues. 
 
 Disrupting the disruption
 
 reprendre À quel prix devient-on vraiment pluggable ?
+
+what's difference between me and (me - 10 years)? I know workflow, I know components, etc.
+
+I got this knowledge from the community, this knowledge ha sbeen built maybe 5 or 10 or 15 years before me.
+
+This knowledge is in the air, everybody could catch it, but the community helps to turn it into a cristal.
 
 --------------------------------------------------------------------------------
 
@@ -372,3 +548,5 @@ C'est parce que cette culture est très forte que l'écosystème Plone fonctionn
 Et c'est cette volonté de soin couplée à la volonté de s'inscrire dans cette culture qui est le fondement de la pluggabilité réelle qu'on peut observer dans Plone.
 
 Au fond la technique n'est pas tellement importante, rien n'empêche de faire avec Django ou Pyramid la même chose qu'avec Zope/Plone (d'ailleurs, on trouve tout ce qu'il faut dans Pyramid pour suivre la même voie que Zope si on le souhaitait). Ce n'est pas la question. Ce n'est pas que ce soit possible de le faire qui compte, ce qui compte c'est que toute une communauté le fasse.
+
+Steve McMahon talk: https://www.youtube.com/watch?v=WDPLvAr5DRI

@@ -459,9 +459,11 @@ Consider this:
 
 This fraternity, that's human nature.
 
-People are altruists by nature. And probably because of emotions.
+People are altruists by nature.
 
 That's something our modern world burried very deeply, and opensource makes it resurface.
+
+Because it reminds us that the need for emotions is bigger than the need for money.
 
 --------------------------------------------------------------------------------
 
@@ -475,17 +477,126 @@ So that's **why** the Plone community is a thing, that's **why** Plone survived 
 
 But it does not explain **how**.
 
-How Plone survived? Our complex tools and concepts are pharmakas, memory of the past, they are barriers but also helpful to solve today's issues. 
+And the "how" here comes from our culture.
 
-Disrupting the disruption
+--------------------------------------------------------------------------------
 
-reprendre À quel prix devient-on vraiment pluggable ?
+# Our everyday miracle
 
-what's difference between me and (me - 10 years)? I know workflow, I know components, etc.
+.fx: titleslide
 
-I got this knowledge from the community, this knowledge ha sbeen built maybe 5 or 10 or 15 years before me.
+# Presenter Notes
 
-This knowledge is in the air, everybody could catch it, but the community helps to turn it into a cristal.
+Consider this:
+
+in a Plone site, you can add a Dexterity content in an Archetypes folder
+
+it can trigger an event implemented with Grok, that would display a z3c.form
+
+and gets displayed in Mosaic
+
+and how do you activate that in your web site? just by adding a new egg in our buildout
+
+not a single line of code
+
+Some of the technologies mentioned in this example have more than a 10 years difference.
+
+This is a miracle. The fact it is actually working is crazy.
+
+--------------------------------------------------------------------------------
+
+# Pluggability comes at a price 
+
+.fx: titleslide
+
+# Presenter Notes
+
+This miracle is called pluggability.
+
+Pluggability is for more superior than extensibility.
+
+The difference is you just need to *declare* something and the system will integrate it.
+
+Whereas with extensibility, you have to implement how the system will integrate it.
+
+Plone is all about pluggability (buildout, ZCA, etc.).
+
+And that's a key thing for any complex system like a CMS (also true for an ERP).
+
+That's not easy to achieve.
+
+It is based on our tooling and our frameworks, yes.
+
+But it also relies on our common knowledge, our common approach of any given problem.
+
+We are disciplined, we follow our rules.
+
+Would we release a module without tests? no
+
+Would we release a module without i18n? no
+
+Would we release a module with funky CSS selectors? no
+
+That's what I call our culture.
+
+
+--------------------------------------------------------------------------------
+
+# Pharamaka
+
+.fx: titleslide
+
+# Presenter Notes
+
+Those rules and tools and patterns we have been building and using for years are very interesting:
+
+- they are technically effective, we can use them today whenever we need them
+
+- they are also mentally effective, they are memory of the past, memory from the previous contributors and they help us to analyse and solve today's issues
+
+- and they are also barriers: they might be difficult to learn, to use, they make our community less approachable for beginners
+
+that's what we could call a pharmaka in Greek: something which heales, and something which poisons at the same time.
+
+--------------------------------------------------------------------------------
+
+# Bigger difficulty = stronger community
+
+Facing difficulty is hard, but it improves us.
+
+what's difference between me and (me - 10 or 15 years)? I know workflow, I know components, I know testing, etc.
+
+And the fact that we know all of us have been facing this difficulty makes us to trust each other.
+
+Just like brothers in arm.
+
+And as a reward for the difficult time, we inherit a strong culture.
+
+Communities which avoid difficulties build weaker culture (and so they need to protect thei core).
+
+.fx: titleslide
+
+# Presenter Notes
+
+--------------------------------------------------------------------------------
+
+# A diamond mine
+
+.fx: titleslide
+
+# Presenter Notes
+
+So I inherit a culture.
+
+I got this knowledge from the community, this knowledge has been built maybe 5 or 10 or 15 years before me.
+
+but actually this knowledge is free, everybody could catch it:
+
+on internet you can learn about testing, about OO patterns, or anything
+
+so this knowledge is in the air, but the community helps to turn it into a crystal.
+
+That's our treasure. A treasure made up of free stuffs, but all together it becomes a treasure.
 
 --------------------------------------------------------------------------------
 
@@ -494,6 +605,8 @@ This knowledge is in the air, everybody could catch it, but the community helps 
 .fx: titleslide
 
 # Presenter Notes
+
+So what are we doing at the end with our love and our culture:
 
 Building a cathedral: like la Sagrada Familia: conceived by someone who left, but still under construction, and every part makes sense.
 

@@ -560,7 +560,11 @@ that's what we could call a pharmaka in Greek: something which heales, and somet
 
 --------------------------------------------------------------------------------
 
-# Bigger difficulty = stronger community
+# Per aspera ad astra
+
+# Presenter Notes
+
+means: through hardships to the stars
 
 Facing difficulty is hard, but it improves us.
 
@@ -572,11 +576,9 @@ Just like brothers in arm.
 
 And as a reward for the difficult time, we inherit a strong culture.
 
-Communities which avoid difficulties build weaker culture (and so they need to protect thei core).
+Communities which avoid difficulties build weaker culture (and so they need to protect their core).
 
 .fx: titleslide
-
-# Presenter Notes
 
 --------------------------------------------------------------------------------
 
@@ -606,10 +608,13 @@ That's our treasure. A treasure made up of free stuffs, but all together it beco
 
 # Presenter Notes
 
-So what are we doing at the end with our love and our culture:
+So ultimately, what are we doing with our love and our culture:
 
-Building a cathedral: like la Sagrada Familia: conceived by someone who left, but still under construction, and every part makes sense.
+We build a cathedral.
 
+like the Sagrada Familia: conceived by someone who left, continued by new persons, still under construction, and every part makes sense.
+
+And don't worry about the future, as I explained last year, the Plone community is the 
 Une communauté est un organisme autonome, qui exerce sa volonté de puissance (au sens de Nietzche, will to power), quand elle rencontre ses limites, elle les repousse
 
 --------------------------------------------------------------------------------

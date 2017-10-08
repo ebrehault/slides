@@ -608,14 +608,11 @@ That's our treasure. A treasure made up of free stuffs, but all together it beco
 
 # Presenter Notes
 
-So ultimately, what are we doing with our love and our culture:
+So ultimately, what are we doing with our love and our culture?
 
 We build a cathedral.
 
 like the Sagrada Familia: conceived by someone who left, continued by new persons, still under construction, and every part makes sense.
-
-And don't worry about the future, as I explained last year, the Plone community is the 
-Une communauté est un organisme autonome, qui exerce sa volonté de puissance (au sens de Nietzche, will to power), quand elle rencontre ses limites, elle les repousse
 
 --------------------------------------------------------------------------------
 
@@ -668,3 +665,5 @@ Et c'est cette volonté de soin couplée à la volonté de s'inscrire dans cette
 Au fond la technique n'est pas tellement importante, rien n'empêche de faire avec Django ou Pyramid la même chose qu'avec Zope/Plone (d'ailleurs, on trouve tout ce qu'il faut dans Pyramid pour suivre la même voie que Zope si on le souhaitait). Ce n'est pas la question. Ce n'est pas que ce soit possible de le faire qui compte, ce qui compte c'est que toute une communauté le fasse.
 
 Steve McMahon talk: https://www.youtube.com/watch?v=WDPLvAr5DRI
+
+Une communauté est un organisme autonome, qui exerce sa volonté de puissance (au sens de Nietzche, will to power), quand elle rencontre ses limites, elle les repousse

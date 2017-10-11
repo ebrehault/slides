@@ -74,12 +74,9 @@ It sounds stupid to me.
 
 But I talk with frontend developers, they are like: "Well that's cool"
 
-"Yeaaah... noooo.... 
-Imagine: workflow, access control, content-type definition, media management, etc."
+"OK that's maybe cool, but think about: workflow, access control, content-type definition, media management, etc."
 
 --------------------------------------------------------------------------------
-
-# They don't care
 
 <img src="./amazingly.jpg" />
 
@@ -132,21 +129,15 @@ Moreover, most part of time, they are our colleagues, we have to work with them 
 
 # Presenter Notes
 
-Managing frontend process or best practices into Plone is very difficult, it costs a lot of time to implement
+Managing frontend process or best practices into Plone is very difficult, costs a lot of time
 
-(by the time it is implemented, the JavaScript build chain tooling has moved away by 3 generations)
+(by the time it is done, the js build chain tooling has moved away by 3 generations)
 
 and the result is not effective for Plone developers, neither for frontend developers
 
-I believed we could make Plone a good tool for frontend developers.
+I believed we could make Plone a good tool for frontend developers (we have Diazo, Dexterity, Mosaic, Rapido . All very good stuff.)
 
-We have Diazo, Dexterity, Mosaic, I developed Rapido too. All very good stuff.
-
-That's actually usable for a frontend dev, but compare to the productivity he/she can get when doing pure front, this is ridiculous.
-
-And they don't enjoy it anyway.
-
-So, not an option either.
+That's actually usable for a frontend dev, but compare to the productivity he/she can get when doing pure front, this is ridiculous. And they don't enjoy it anyway. So, not an option either.
 
 We need to reconsider the whole thing. This Google spreadsheet thing, let's stop calling it stupid.
 
@@ -156,11 +147,11 @@ If frontend dev like this approach (or similar ones), that's for good reasons.
 
 --------------------------------------------------------------------------------
 
-# Embrace it
-
 <img src="./wecandoit.jpg" />
 
 # Presenter Notes
+
+Last option: embrace it!
 
 Let's make Plone as good as a spreadsheet in their point of view
 
@@ -180,7 +171,7 @@ and the whole UI is pure frontend
 
 # Presenter Notes
 
-ThoughWorks technology radar: "CMS as a platform" => HOLD!! https://www.thoughtworks.com/radar/platforms/cms-as-a-platform
+ThoughWorks technology radar: "CMS as a platform" => HOLD!! 
 
 "We are seeing too many organizations run into trouble as they attempt to use their CMS as a platform for delivering large and complex digital applications.
 
@@ -219,7 +210,7 @@ Breadcrumbs seem like a small thing, but:
 
 # Presenter Notes
 
-- it is very hard to implement
+... it is very hard to implement
 
 I have been to Mordor, I implemented it once.
 
@@ -239,7 +230,7 @@ Plone rocks!! It just does.
 - secured
 - opensource
 
-Plone core is rich (it provides core things like persitency or auth, but also hierarchical content, flexible content-types, access control and workflow, permissions, media management, and breadcrumbs of course).
+And Plone core is rich (it provides core things like persitency or auth, but also image management, navigation, sitemap, etc., and breadcrumbs of course).
 
 Many CMS have a very small core, and key features are provided by add-ons. So it makes it difficult for them to provide a good restapi based on the core.
 
@@ -316,41 +307,22 @@ On GitHub Plone
 
 --------------------------------------------------------------------------------
 
-# Real-life examples
+# Code example
 
-.fx: titleslide
-
---------------------------------------------------------------------------------
-
-# French local territory risk management
-
-<a href="https://ddt65.terralego.com/" target="_new">Go</a>
-
-<a href="https://concours.madeeli.fr/concours/les-inn-ovations-2017/" target="_new">Innovation contest registration</a>
-
-# Presenter Notes
-
-Backend:
-
-- Vanilla Plone 5
-- content-types created TTW
-
-Frontend:
-
-- declare the needed views
-- overides few @plone/restapi-angular templates
-- And if you think you need backend technology to generate a PDF, think again.
-
-Management:
-
-- initial data import with Postman
-- daily changes with WebDAV + content-rules
+    !html+ng2
+    <header>
+      <plone-global-navigation></plone-global-navigation>
+      <plone-breadcrumbs></plone-breadcrumbs>
+    </header>
+    <main>
+      <traverser-outlet></traverser-outlet>
+    </main>
 
 --------------------------------------------------------------------------------
 
-# Code
+# Code example
 
-    !javascript
+    !typescript
     export class PageComponent extends ViewView {
       displayLocalNav = true;
 
@@ -365,9 +337,9 @@ Management:
 
 --------------------------------------------------------------------------------
 
-# Code
+# Code example
 
-    !html
+    !html+ng2
     <div *ngIf="context.image" class="col-md-4">
       <div class="image-container">
         <img [src]="context.image.scales.large.download" alt="Lead image" />
@@ -378,13 +350,50 @@ Management:
       <p>{{ context.description }}</p>
     </div>
 
+
+--------------------------------------------------------------------------------
+
+# Real-life examples
+
+.fx: titleslide
+
+--------------------------------------------------------------------------------
+
+# French local territory risk management
+
+.fx: titleslide
+
+# Presenter Notes
+
+<a href="https://ddt65.terralego.com/" target="_new">Go</a>
+
+Backend:
+
+- Vanilla Plone 5
+- content-types created TTW
+
+Frontend:
+
+- declare the needed views
+- overides few @plone/restapi-angular templates
+- And if you think you need backend technology to generate a PDF, think again.
+- server-side rendering with Universal
+- SEO friendly
+
+Management:
+
+- initial data import with Postman
+- daily changes with WebDAV + content-rules
+
 --------------------------------------------------------------------------------
 
 # Innovation contest registration
 
-<a href="https://concours.madeeli.fr/concours/les-inn-ovations-2017/" target="_new">Go</a>
+.fx: titleslide
 
 # Presenter Notes
+
+<a href="https://concours.madeeli.fr/concours/les-inn-ovations-2017/" target="_new">Go</a>
 
 - existing information system
 - huge Plone site
@@ -394,14 +403,54 @@ Management:
 
 # But web sites can also be totally different
 
+.fx: titleslide
+
+# Presenter Notes
+
+<a href="../plone-mindmap.mp4" target="_new">Example</a>
+
 - new UI are possible
 - mobile apps
 - electron apps
 - ...
 
-<a href="../teststarwars.mp4" target="_new">Example</a>
-
 Plone PWA
+
+--------------------------------------------------------------------------------
+
+# Where are we now?
+
+.fx: titleslide
+
+# Presenter Notes
+
+plone.restapi-angular is a pretty advanced SDK and we use it in production.
+
+Plone React focuses on the Plone UI and already reproduces the majority of the Plone 5 screens.
+
+We want to maintain this multi-frameworks approach
+
+--------------------------------------------------------------------------------
+
+# What we learnt
+
+.fx: titleslide
+
+# Presenter Notes
+
+Good things frontend brings to Plone:
+
+- beautiful dynamic web sites
+- it makes Plone fun again to many people (approachability)
+
+Good things Plone brings to frontend:
+
+- old ideas like traversing or pluggability, which make so much sense but nobody get it
+- a really really good CMS API
+
+A friend of mine (a frontend dev) told he tried almost all the commercial headless CMS, and they all have very limited features.
+
+That's where we need to go, there is a market here. We have the knowledge, we have the technology, so let's go!!
 
 --------------------------------------------------------------------------------
 

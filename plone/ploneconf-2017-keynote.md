@@ -8,7 +8,7 @@
 
 Hola a tots. I would love to do my talk in catalan, but my catalan is very bad, I will continue in english because my english is much better.
 
-Nevertheless, I will do my best to make my english as bad as possible, because but speaking bad english is a french tradition we need to preserve (even our new president tries to speak a correct english, and I think that's a shame).
+Nevertheless, I will do my best to make my english as bad as possible, because speaking bad english is a french tradition we need to preserve (even our new president tries to speak a correct english, and I think that's a shame).
 
 --------------------------------------------------------------------------------
 
@@ -25,13 +25,13 @@ We are developping and maintaining a CMS.
 
 # Presenter Notes
 
-It looks like a simple feature supported by a precise and quite complex mechanism.
+It is a simple feature supported by a precise and quite complex mechanism.
 
 Web frameworks are like that too, right?
 
 But CMS are not just like frameworks.
 
-Maybe let's put it that way...
+Maybe we should put it that way...
 
 --------------------------------------------------------------------------------
 
@@ -45,7 +45,7 @@ A CMS looks like a simple feature.
 
 And... it is supported by a precise and quite complex mechanism.
 
-Yeah... or let's say...
+Yeah... still not accurate, let's say...
 
 --------------------------------------------------------------------------------
 
@@ -67,7 +67,7 @@ And its mechanism is precise and quite complex.
 
 # Presenter Notes
 
-At some point, the user comes to us, take a good look to our product, and ask:
+At some point, the user comes to us, takes a good look to our product, and asks:
 
 "Does it fly?"
 
@@ -112,9 +112,21 @@ And we start thinking: "Could it fly AND be backward compatible?"
 
 --------------------------------------------------------------------------------
 
+<img src="./spinner.jpg" />
+
+# Presenter Notes
+
+Like this.
+
+No, come on, forget about it.
+
+--------------------------------------------------------------------------------
+
 <img src="./rocket.jpg" />
 
 # Presenter Notes
+
+LIKE THIS!!!
 
 --------------------------------------------------------------------------------
 
@@ -142,12 +154,14 @@ But that's clearly more than twice the age of the average JS framework.
 
 # A long story
 
-<a href="../teststarwars.mp4" target="_new">Open</a>
+.fx: titleslide
 
 # Presenter Notes
 
+<a href="../teststarwars.mp4" target="_new">Open</a>
+
 For those who discover Plone today, it might look like it always has been that
-way. For us, it is more like a saga....
+way. For the rest us, it is more like a saga....
 
 A long time ago, in a GitHub organization far,
 far away....
@@ -265,6 +279,10 @@ I would like to run our analysis over two axis: emotion and culture.
 
 Let's start with emotion.
 
+Last year at the Boston PloneConf, I have developped the idea that someone who writes code feels like a parent (I won't go into detail today)
+
+And an OS community is like a shared parenthood, so we consider ourselves as family.
+
 --------------------------------------------------------------------------------
 
 # Love
@@ -273,11 +291,7 @@ Let's start with emotion.
 
 # Presenter Notes
 
-Last year at the Boston PloneConf, I have developped the idea that someone who writes code feels like a parent (I won't go into detail today)
-
-And an OS community is like a shared parenthood, so we consider ourselves as family.
-
-My talk ended with one word: "Love" as the explanation for the entire OS thing.
+My talk ended with one word: "Love" as the explanation for the entire opensource thing.
 
 Let's dig a little bit from here.
 
@@ -329,7 +343,7 @@ So at the contrary, it heales.
 
 Start-ups value 10x developers, super-men.
 
-OS values collective.
+Opensource values collective.
 
 Collective means the only way to be a 10x dev is to teach 10 developers how to be 2x better.
 
@@ -337,7 +351,7 @@ In business, we usally do not "care" about human resources or human processes, w
 
 It leads to crazy things like: "According this spreadsheet, it seems with 9 couples, we can make one baby in one month"
 
-In OS we are more on the line: "It takes a couple to make a baby, and then it takes a village to raise it"
+In opensource we are more on the line: "It takes a couple to make a baby, and then it takes a village to raise it"
 
 or "It is easy to make a baby, it is more difficult to make an adult"
 
@@ -365,13 +379,13 @@ Opensource does not care about money, so it lets us free to focus on what matter
 
 # Presenter Notes
 
-Let's analyse the OS process
+Let's analyse the opensource process
 
 There is a development process of course, which we enjoy, but we could enjoy it in a business context too.
 
 But also a sharing process.
 
-Some of you are not in the Plone community, so you might not know what is a real community.
+Some of you are not familiar with the Plone community, so you might not know what is a real community.
 
 We are not just sharing code, we are sharing emotion.
 
@@ -419,7 +433,7 @@ I think we are emotion addicts since we are born.
 
 And that's why human want to share, want to help each others.
 
-Doing OS, we want to be part of something. Like any given group of fan.
+By doing opensource, we want to be part of something. Like any given group of fan.
 
 Any fan invest time and/or money. For something not useful, not productive.
 
@@ -439,13 +453,22 @@ As you know, "we are spirits in a material world" (remember the Police song?).
 
 Our world is ruled by economics principles.
 
-Like the myth of the rational egoistic individual pursuing his own interest and it benefits to the entire society.
+Like the myth of the rational egoistic individual pursuing his own interest and it benefits to the entire society. Ok so we are all egoistic in first place...
 
 A lot of people think that. I think it is the biggest hoax ever.
 
 And those people usally say: "Hey, you know, that's just human nature".
 
 But if you ask them if they are also egoistic regarding the family, they say "no, of course"
+
+
+--------------------------------------------------------------------------------
+
+# What is the perimeter of your family?
+
+.fx: titleslide
+
+# Presenter Notes
 
 But what is the perimeter of your family?
 
@@ -505,7 +528,7 @@ This is a miracle. The fact it is actually working is crazy.
 
 --------------------------------------------------------------------------------
 
-# Pluggability comes at a price 
+# Pluggability
 
 .fx: titleslide
 
@@ -513,7 +536,7 @@ This is a miracle. The fact it is actually working is crazy.
 
 This miracle is called pluggability.
 
-Pluggability is for more superior than extensibility.
+Pluggability is far more superior than extensibility.
 
 The difference is you just need to *declare* something and the system will integrate it.
 
@@ -525,6 +548,14 @@ And that's a key thing for any complex system like a CMS (also true for an ERP).
 
 That's not easy to achieve.
 
+--------------------------------------------------------------------------------
+
+# Pluggability comes at a price
+
+.fx: titleslide
+
+# Presenter Notes
+
 It is based on our tooling and our frameworks, yes.
 
 But it also relies on our common knowledge, our common approach of any given problem.
@@ -533,16 +564,16 @@ We are disciplined, we follow our rules.
 
 Would we release a module without tests? no
 
-Would we release a module without i18n? no
+Would we release a module without internalization? no
 
 Would we release a module with funky CSS selectors? no
 
-That's what I call our culture.
+That's what I call our culture. Other CMS (or frameworks), they don't all have that.
 
 
 --------------------------------------------------------------------------------
 
-# Pharamaka
+# Pharmaka
 
 .fx: titleslide
 
@@ -556,11 +587,13 @@ Those rules and tools and patterns we have been building and using for years are
 
 - and they are also barriers: they might be difficult to learn, to use, they make our community less approachable for beginners
 
-that's what we could call a pharmaka in Greek: something which heales, and something which poisons at the same time.
+that's what we could call a pharmaka in ancient Greek: something which heales, and something which poisons at the same time.
 
 --------------------------------------------------------------------------------
 
 # Per aspera ad astra
+
+.fx: titleslide
 
 # Presenter Notes
 
@@ -568,7 +601,7 @@ means: through hardships to the stars
 
 Facing difficulty is hard, but it improves us.
 
-what's difference between me and (me - 10 or 15 years)? I know workflow, I know components, I know testing, etc.
+what's difference between me and (me - 10 or 15 years)? I know workflow, I know components, I know testing, etc. And when I mean I know it, I really do, I learnt it the hard way right?
 
 And the fact that we know all of us have been facing this difficulty makes us to trust each other.
 
@@ -576,9 +609,7 @@ Just like brothers in arm.
 
 And as a reward for the difficult time, we inherit a strong culture.
 
-Communities which avoid difficulties build weaker culture (and so they need to protect their core).
-
-.fx: titleslide
+Communities which avoid difficulties build weaker culture (and so they need to protect their core, we don't, our core is self-protected).
 
 --------------------------------------------------------------------------------
 

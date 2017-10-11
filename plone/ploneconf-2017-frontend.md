@@ -281,13 +281,22 @@ We would be happy to provide a VueJS implementation too.
 
 # Presenter Notes
 
+We cannot maintain by ourselves several entire implementations of the Plone UI.
+
+We need to re-use as many things as possible:
+
+- re-use external elements
+- re-use elements between implementations
+
+example:
+
 --------------------------------------------------------------------------------
 
-# Example: theme
-
-TBD: show package inherirance for Pastanaga
+<img src="./pastanaga-packaging.jpg" />
 
 # Presenter Notes
+
+Bootstrap 4 is just an example here, we are not decided yet.
 
 --------------------------------------------------------------------------------
 
@@ -307,9 +316,19 @@ On GitHub Plone
 
 --------------------------------------------------------------------------------
 
-# Real-life example
+# Real-life examples
 
-https://ddt65.terralego.com/
+.fx: titleslide
+
+--------------------------------------------------------------------------------
+
+# French local territory risk management
+
+<a href="https://ddt65.terralego.com/" target="_new">Go</a>
+
+<a href="https://concours.madeeli.fr/concours/les-inn-ovations-2017/" target="_new">Innovation contest registration</a>
+
+# Presenter Notes
 
 Backend:
 
@@ -319,13 +338,57 @@ Backend:
 Frontend:
 
 - declare the needed views
-- overrides few @plone/restapi-angular templates
-- PDF generation!!
+- overides few @plone/restapi-angular templates
+- And if you think you need backend technology to generate a PDF, think again.
 
 Management:
 
 - initial data import with Postman
-- daily changes with WebDAV
+- daily changes with WebDAV + content-rules
+
+--------------------------------------------------------------------------------
+
+# Code
+
+    !javascript
+    export class PageComponent extends ViewView {
+      displayLocalNav = true;
+
+      onTraverse(target) {
+        if (!target.context.text && target.context.items) {
+          this.displayLocalNav = false;
+        } else {
+          this.displayLocalNav = true;
+        }
+      }
+    }
+
+--------------------------------------------------------------------------------
+
+# Code
+
+    !html
+    <div *ngIf="context.image" class="col-md-4">
+      <div class="image-container">
+        <img [src]="context.image.scales.large.download" alt="Lead image" />
+      </div>
+    </div>
+    <div class="col-md-6 page-container">
+      <h1>{{ context.title }}</h1>
+      <p>{{ context.description }}</p>
+    </div>
+
+--------------------------------------------------------------------------------
+
+# Innovation contest registration
+
+<a href="https://concours.madeeli.fr/concours/les-inn-ovations-2017/" target="_new">Go</a>
+
+# Presenter Notes
+
+- existing information system
+- huge Plone site
+- still Plone 4
 
 --------------------------------------------------------------------------------
 

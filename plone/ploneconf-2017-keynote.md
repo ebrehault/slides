@@ -14,6 +14,10 @@ Nevertheless, I will do my best to make my english as bad as possible, because s
 
 # Think about our situation
 
+.fx: titleslide
+
+# Presenter Notes
+
 We are developping and maintaining a CMS.
 
 
@@ -142,13 +146,17 @@ Some of them have been around for 15 years.
 
 That's probably half of the age of more than a half of the people here.
 
-But that's clearly more than twice the age of the average JS framework.
+But that's clearly more than twice the age of the average JavaScript framework.
 
 --------------------------------------------------------------------------------
 
 # This slide is pointless, ignore it
 
 <img src="./formula.png" />
+
+# Presenter Notes
+
+anyway....
 
 --------------------------------------------------------------------------------
 
@@ -158,10 +166,11 @@ But that's clearly more than twice the age of the average JS framework.
 
 # Presenter Notes
 
-<a href="../teststarwars.mp4" target="_new">Open</a>
+Of course, for those who discover Plone today, it might look like it always has been that way, I mean this large stack.
 
-For those who discover Plone today, it might look like it always has been that
-way. For the rest us, it is more like a saga....
+But for the rest us, it is more like a saga....
+
+<a href="../teststarwars.mp4" target="_new">Open</a>
 
 A long time ago, in a GitHub organization far,
 far away....
@@ -213,7 +222,7 @@ yes, but how?
 
 --------------------------------------------------------------------------------
 
-# Zope4, Guillotina?
+# Zope4 or Guillotina?
 
 .fx: titleslide
 
@@ -227,9 +236,9 @@ yes, but how?
 
 # Presenter Notes
 
-Offering a full REST API approach.
+Offering a full REST API approach, that's nice.
 
-And what about a GraphQL implementation?
+And what about a GraphQL implementation? Would be nice too...
 
 --------------------------------------------------------------------------------
 
@@ -241,7 +250,7 @@ And what about a GraphQL implementation?
 
 There is no way to work with web right now without a strong frontend expertise.
 
-You know what? We do not have a lot of frontend expertise in the community?
+You know what? We do not have a lot of frontend expertise in the community...
 
 --------------------------------------------------------------------------------
 
@@ -341,7 +350,7 @@ So at the contrary, it heales.
 
 # Presenter Notes
 
-Start-ups value 10x developers, super-men.
+IT companies value 10x developers, super-men.
 
 Opensource values collective.
 
@@ -353,7 +362,7 @@ It leads to crazy things like: "According this spreadsheet, it seems with 9 coup
 
 In opensource we are more on the line: "It takes a couple to make a baby, and then it takes a village to raise it"
 
-or "It is easy to make a baby, it is more difficult to make an adult"
+And we also know that "It is easy to make a baby, it is more difficult to make an adult"
 
 --------------------------------------------------------------------------------
 
@@ -385,7 +394,7 @@ There is a development process of course, which we enjoy, but we could enjoy it 
 
 But also a sharing process.
 
-Some of you are not familiar with the Plone community, so you might not know what is a real community.
+Some of you are not familiar with the Plone community, so you might not know what is a strong community.
 
 We are not just sharing code, we are sharing emotion.
 
@@ -433,7 +442,7 @@ I think we are emotion addicts since we are born.
 
 And that's why human want to share, want to help each others.
 
-By doing opensource, we want to be part of something. Like any given group of fan.
+By doing opensource, we want to be part of something. Like any given group of fan (Python fans are quite close to Justin Bieber fans, or SciFi fans, or Barca supporters, or chess players...)
 
 Any fan invest time and/or money. For something not useful, not productive.
 
